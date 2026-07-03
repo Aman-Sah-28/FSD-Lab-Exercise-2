@@ -252,3 +252,74 @@ footer{
     border-radius:5px;
     cursor:pointer;
 }
+
+
+/* Registration Page */
+.registration-section{
+    padding:120px 8%;
+}
+
+.registration-container{
+    width:60%;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+#registrationForm{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+#registrationForm input,
+#registrationForm select{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+}
+
+#registrationForm button{
+    background:#0d6efd;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+#registrationForm button:hover{
+    background:#084298;
+}
+
+#card{
+    width:60%;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    display:none;
+}
+
+#card h2{
+    color:#0d6efd;
+    margin-bottom:15px;
+}
+
+#card p{
+    margin:8px 0;
+}
+
+@media(max-width:768px){
+
+.registration-container,
+#card{
+    width:95%;
+}
+
+}
